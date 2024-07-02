@@ -1,0 +1,172 @@
+/* General styling */
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #383838; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+
+}
+
+.resumebtn{
+    text-align: center;
+    margin-bottom: 2%;
+}
+    
+
+.desc {
+    background-color: #cff8db; /* Light gray background for projects */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about {
+    background-color: #dfffe8; /* Light gray background for projects */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styling */
+h2 {
+    text-align:center
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #7658fd; /* Purple color */
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #777;
+}
+
+/* Section styling */
+
+section {
+    background: #d0a2f8; /* White background */
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2.5em;
+    color: #7658fd; /* Purple color */
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.8;
+}
+
+.skills {
+    background-color: #dfffe8; /* Light gray background for projects */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Project cards */
+
+.project {
+    background-color: #dfffe8; /* Light gray background for projects */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.access {
+    background-color: #dfffe8; /* Light gray background for projects */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact {
+    background-color: #dfffe8; /* Light gray background for projects */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Button styling */
+
+.btn {
+    display: inline-block;
+    background-color: #7658fd; /* Purple button */
+    color: #fff;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #6b6bff; /* Lighter shade on hover */
+}
+
+/* Footer styling */
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9em;
+    border-top: 1px solid #555;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #7658fd; /* Purple color on hover */
+}
